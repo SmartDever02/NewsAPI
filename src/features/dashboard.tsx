@@ -22,7 +22,7 @@ const Dashboard = () => {
   return (
     <>
       <div
-        className={`w-screen h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 transition-all duration-500 gap-8 sm:gap-16 py-40 px-8 sm:px-16 ${
+        className={`w-screen h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 transition-all duration-500 gap-8 sm:gap-12 py-40 px-8 sm:px-16 ${
           isOpen ? 'bg-black opacity-40' : 'bg-transparent'
         }`}
       >
